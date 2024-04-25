@@ -1,0 +1,212 @@
+body{
+    background-color: #000000;
+
+}
+
+.navbar{
+    /* background-color: transparent !important; */
+    -webkit-box-shadow: 1px 4px 26px 13px rgba(0,0,0,0.2);
+    box-shadow: 1px 4px 26px 13px rgba(0,0,0,0.2);
+    background-color: rgb(000, 000, 000);
+    color: rgb(255, 255, 255);
+}
+
+li a:hover{
+    -webkit-box-shadow: 1px 4px 26px 13px rgb(27, 64, 31, .6);
+    box-shadow: 1px 4px 26px 13px rgb(27, 64, 31, .6);
+    background-color: rgba(27, 64, 31, .8);
+    transition-duration: .3s;
+    /* color: rgb(255, 255, 255); */
+}
+
+
+#navbarSupportedContent{
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+.logo{
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.brandName{
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-nav > li{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 13.5px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.portfolioContent{
+    margin-top: 112px;
+    
+}
+
+.images{
+    height: 450px;
+    /* width: 100vh; */
+    /* border: solid 1px black; */
+}
+
+.pic1{
+    background-image: url(./photos/profPic1.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic2{
+    background-image: url(./photos/profPic2.jpg);
+    background-size: 120vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic3{
+    background-image: url(./photos/profPic3.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic4{
+    background-image: url(./photos/profPic4.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic5{
+    background-image: url(./photos/profPic5.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic6{
+    background-image: url(./photos/profPic6.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic7{
+    background-image: url(./photos/profPic7.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic8{
+    background-image: url(./photos/profPic8.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.loremLinks{
+    color: white;
+    font-size: 30px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.footer{
+    background-image: url(./photos/pawel-czerwinski-lWBZ01XRRoI-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+
+.links{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.socialMediaIcons{
+    width: 30px;
+    height: 30px;
+}
+
+.socialLinks{
+    justify-content: space-between;
+}
+
+h4{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footerButtons{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: 2px solid rgba(27, 64, 31);
+    background-color: transparent;
+    width: 210px;
+    height: 50px;
+}
+
+#phoneNumberButton{
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: rgba(27, 64, 31);
+    transition: .3s;
+    color: rgb(249, 249, 249);
+}
+
+.copyrightText{
+    color: rgb(150, 150, 150);
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 767px){
+
+    .logo{
+        display: none;
+    }
+
+    .brandName{
+        padding-left: 25px;
+    }
+
+     .images{
+        height: 850px;
+    }
+
+    .footer{
+        background-image: none;
+        background-color: #f8f8f6;
+    }
+
+    .contactButtons{
+        flex-direction: column;
+    }
+
+    #phoneNumberButton{
+        margin-left: 0px;
+    } 
+}

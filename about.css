@@ -1,0 +1,224 @@
+body{
+    background-color: #000000;
+
+}
+
+.navbar{
+    /* background-color: transparent !important; */
+    -webkit-box-shadow: 1px 4px 26px 13px rgba(0,0,0,0.2);
+    box-shadow: 1px 4px 26px 13px rgba(0,0,0,0.2);
+    background-color: rgb(000, 000, 000);
+    color: rgb(255, 255, 255);
+}
+
+li a:hover{
+    -webkit-box-shadow: 1px 4px 26px 13px rgb(27, 64, 31, .6);
+    box-shadow: 1px 4px 26px 13px rgb(27, 64, 31, .6);
+    background-color: rgba(27, 64, 31, .8);
+    transition-duration: .3s;
+    /* color: rgb(255, 255, 255); */
+}
+
+
+#navbarSupportedContent{
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+.logo{
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.brandName{
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-nav > li{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 13.5px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.backgroundImage{
+    /* height: 250vh; */
+    background-image: url(./photos/aboutBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.contentBox{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 80%;
+    background-color: rgb(236, 228, 218, 1.0);
+    -webkit-box-shadow: 1px 4px 26px 13px rgba(0,0,0,0.5);
+    box-shadow: 1px 4px 26px 13px rgba(0,0,0,0.5);
+}
+
+.aboutHeading{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* margin-top: 125px;
+    margin-left: 60px; */
+}
+
+h5{
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.aboutParagraphs{
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+}
+
+#topImage{
+    background-image: url(./photos/aboutImage1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 1px 4px 26px 13px rgba(0,0,0,0.2);
+    box-shadow: 1px 4px 26px 13px rgba(0,0,0,0.2);
+}
+
+#bottomImage{
+    background-image: url(./photos/aboutImage2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 1px 4px 26px 13px rgba(0,0,0,0.2);
+    box-shadow: 1px 4px 26px 13px rgba(0,0,0,0.2);
+}
+
+
+
+.footer{
+    background-image: url(./photos/pawel-czerwinski-lWBZ01XRRoI-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.links{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.socialMediaIcons{
+    width: 30px;
+    height: 30px;
+}
+
+h4{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.socialLinks{
+    justify-content: space-between;
+}
+
+.footerButtons{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: 2px solid rgba(27, 64, 31);
+    background-color: transparent;
+    width: 210px;
+    height: 50px;
+}
+
+#phoneNumberButton{
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: rgba(27, 64, 31);
+    transition: .3s;
+    color: rgb(249, 249, 249);
+}
+
+.copyrightText{
+    color: rgb(150, 150, 150);
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .contentBox{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 568px) and (max-width: 767px){
+    .contentBox{
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 767px){
+    .logo{
+        display: none;
+    }
+
+    .brandName{
+        padding-left: 25px;
+    }
+    
+    .footer{
+        background-image: none;
+        background-color: #f8f8f6;
+    }
+
+    .contactButtons{
+        flex-direction: column;
+    }
+
+    #phoneNumberButton{
+        margin-left: 0px;
+    } 
+}
+
+@media only screen and (max-width: 567px){
+    .contentBox{
+        width: 100%;
+    }
+ 
+
+}
+
+@media only screen and (max-width: 967px){
+
+ 
+
+    #bottomImage{
+        display: none;
+    }
+
+    #topImage{
+        display: none;
+    }
+}
